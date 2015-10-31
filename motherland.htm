@@ -1,10 +1,11 @@
 <html>
   <head>
     <title> Motherland </title>
+    <link href="css/toolkit.min.css" rel="stylesheet">
 
     <link rel='stylesheet' type='text/css' href='materialize.css'>
       <link rel='stylesheet' type='text/css' href='main.css'>
-    <script type='text/css' src='materialize.js'></script>
+
     <script type='text/css' src='jquery-2.1.1.js'></script>
     <!--Import Google Icon Font-->
      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -15,27 +16,29 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body class='grey lighten-2'>
-  <div class='container big transparent'>
+  <div class='container big white'>
     <div class='row center'>
-      <div class='col s12 m12'>
-        <h3 class='title'><b> MOTHERLAND </b></h3>
+      <div class='col s12 m12 white'>
+        <h3 class='title green-text'><b> MOTHERLAND </b></h3>
+        <h5 class='title badge black-text'><small><i> Art in South Africa...</i> </small> </h5>
       </div>
     </div>
     <div class='row'>
 
 
-        <div class='col s8 m8 red featured'>
-          <span class='arrow left large card-panel'> < </span>
-          <span class='arrow right large card-panel'> > </span>
+        <div class='col s8 m8 white featured'>
+          <span class='arrow left large card-panel'><b><big> < </big></b></span>
+          <span class='arrow right large card-panel'><b><big> > </big></b> </span>
           <img class='col s12 m12 profilePic'src='cover1.jpg'>
+          <span class='caption col s12 m12 yellow '>Caption this</span>
         </div>
         <div class='col s4 m4 options'>
           <div class='row'>
-            <button class='btn black white-text col s12 m12'>Book </button>
-            <button class='btn black white-text col s12 m12'>COntact </button>
+            <button class='btn green lighten-2 white-text col s12 m12'>Book </button>
+            <button class='btn green lighten-2 white-text col s12 m12'>COntact </button>
           </div>
           <div class='row'>
-            <div class="card small red ">
+            <div class="card small white ">
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="pro1.jpg">
               </div>
@@ -56,34 +59,37 @@
 
     <div class='row blue'>
 
-      <div class='col s3 m3 center  black news'>
+      <div class='col s3 m3 center grey lighten-3  news'>
         my div
       </div>
-      <div class='col s3 m3 center  black news'>
+      <div class='col s3 m3 cente grey lighten-3 news'>
         my div
       </div>
-      <div class='col s3 m3 center black news'>
+      <div class='col s3 m3 center grey lighten-3 news'>
         my div
       </div>
-      <div class='col s3 m3 center   black news'>
+      <div class='col s3 m3 center  grey lighten-3  news'>
         my div
       </div>
     </div>
     <div class='row'>
-      <div class='collection red post'>
-        <div class='collection-item'>
-        </div>
-      </div>
-      <div class='collection red post'>
-        <div class='collection-item'>
-        </div>
-      </div>
-      <div class='collection red post'>
-        <div class='collection-item'>
-        </div>
+      <ul class="collapsible" data-collapsible="accordion">
+   <li>
+         <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+         <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+       </li>
+       <li>
+         <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+         <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+       </li>
+       <li>
+         <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+         <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+       </li>
+     </ul>
       </div>
     </div>
   </div>
-
+<script type='text/css' src='materialize.js'></script>
   </body>
   </html>

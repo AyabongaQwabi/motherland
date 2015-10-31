@@ -33,6 +33,7 @@
 .arrow{
   position:absolute;
   top:25%;
+  display:no
 }
 
 .right{
@@ -53,4 +54,7 @@
 }
 .row{
   margin-bottom:0;
+}
+.row .col{
+  padding:0;
 }
